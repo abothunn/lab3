@@ -10,7 +10,7 @@ public class ArrayTests {
 	}
 
   @Test 
-  public void testReverseInPlace321(){
+  public void testReverseInPlace2(){
     int[] input2 = {10, 9, 8, 7, 6};
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(new int[]{6, 7, 8, 9, 10}, input2);
@@ -28,6 +28,8 @@ public class ArrayTests {
     int[] input2 = {3, 2, 1};
     assertArrayEquals(new int[]{1, 2, 3}, ArrayExamples.reversed(input2));
   }
+
+  
 
   
 

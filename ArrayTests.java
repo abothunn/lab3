@@ -10,6 +10,13 @@ public class ArrayTests {
 	}
 
   @Test 
+  public void testReverseInPlace3(){
+    int[] input3 = {1, 1, 1, 1, 1};
+    ArrayExamples.reverseInPlace(input3);
+    assertArrayEquals(new int[]{1, 1, 1, 1, 1}, input3);
+  }
+
+  @Test 
   public void testReverseInPlace2(){
     int[] input2 = {10, 9, 8, 7, 6};
     ArrayExamples.reverseInPlace(input2);
